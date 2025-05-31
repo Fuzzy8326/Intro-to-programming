@@ -1,0 +1,92 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans‐serif;
+  
+}
+
+p {
+  font-size: 2.5em;
+  text-align: center;
+  padding: 50px;
+}
+
+#robot {
+   margin: 0 auto;
+   padding-top: 40px;
+ }
+
+#head {
+  background-color: #e8e8c0;
+  margin: auto;
+  height: 350px;
+  width: 350px;
+  border-radius: 10%;
+}
+.eyes {
+  background-color: #5233ec;
+  width: 5%;
+  height: 10%;
+  border-radius: 50%;
+  margin-top: 3%;
+}
+
+.arm {
+  background-color: #cfcf92;
+  
+ }
+/* Robot pointing
+/* #left-arm {
+   position: absolute;
+   left: 63%;
+   width: 27%;
+   height: 8%;
+ }*/
+ 
+ #left-arm {
+  position: absolute;
+  left: 63%;
+  width: 4%;
+  height: 250px;
+}
+
+ #right-arm {
+   position: absolute;
+   left: 33%;
+   width: 4%;
+   height: 250px;
+ }
+#nose {
+  background-color: black;
+  position: absolute;
+  top: 25%;
+  right: 49%;
+  width: 30px;
+  height: 45px;
+}
+
+#mouth {
+  background-color: red;
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  left: 43%;
+  width: 220px;
+  height: 30px;
+}
+#right-eye {
+  position: absolute;
+  left: 41%;
+  top: 10%;
+}
+#left-eye {
+  position: absolute;
+  right: 41%;
+  top: 10%;
+}
+
+.body{
+   background-color: #e8e8c0;
+   width: 346px;
+   height: 350px;
+   margin: 0px auto;
+   padding: 25px;
+}
