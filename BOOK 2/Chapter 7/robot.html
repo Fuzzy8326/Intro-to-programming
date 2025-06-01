@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- The head section contains meta information, title, and external resource links -->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Ensures proper rendering and touch zooming on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the page shown in browser tabs -->
+    <title>Douglas The Robot</title>
+    <!-- Link to the external stylesheet that holds CSS styles for the robot -->
+    <link href="robot.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Main container for the robot element -->
+    <div id="robot">
+      <!-- Container for the robot's head -->
+      <div id="head">
+        <!-- Right eye element; styling and behavior defined in CSS and JavaScript -->
+        <div class="eyes" id="right-eye"></div>
+        <!-- Left eye element -->
+        <div class="eyes" id="left-eye"></div>
+        <!-- Nose element, which responds to mouseover events in JavaScript -->
+        <div id="nose"></div>
+        <!-- Mouth element of the robot -->
+        <div id="mouth"></div>
+      </div>
+
+      <!-- Container for the robot's body -->
+      <div id="body">
+        <!-- Right arm element with its styling and animations defined externally -->
+        <div class="arm" id="right-arm"></div>
+        <!-- Left arm element -->
+        <div class="arm" id="left-arm"></div>
+        <!-- A simple message or slogan for the robot -->
+        <p>I &lt;3JS!</p>
+      </div>
+    </div>
+
+    <!-- Link to the external JavaScript file that adds interactivity to the robot -->
+    <script src="robot.js"></script>
+  </body>
+</html>
