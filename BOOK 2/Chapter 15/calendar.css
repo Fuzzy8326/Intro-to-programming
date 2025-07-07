@@ -1,0 +1,22 @@
+body {
+    font-family:"Comic Sans MS";
+    background-color: rgb(216, 222, 177);
+    text-align: center;
+    margin-top: 40px;
+}
+
+#buttonBox {
+    margin-top: 30px;
+}
+#thingToDo {
+    margin-top: 20px;
+    background-color: rgb(0, 255, 76);
+}
+
+#whattodo{
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(183, 177, 172);
+    font-size: medium;
+    
+}
